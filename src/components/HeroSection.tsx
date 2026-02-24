@@ -61,15 +61,11 @@ export default function HeroSection({ heroIdx, setHeroIdx, scrollTo, setFormData
               <button
                 onClick={() => scrollTo("b2b")}
                 className="flex items-center justify-center gap-2 bg-ochre hover:bg-ochre/90 text-white font-montserrat font-bold px-8 py-4 rounded-xl text-lg transition-all hover:scale-105 shadow-lg"
-              >
-                🏭 Промышленным заказчикам
-              </button>
+              >🏭 Для бизнеса</button>
               <button
                 onClick={() => scrollTo("b2c")}
                 className="flex items-center justify-center gap-2 bg-terracotta hover:bg-terracotta/90 text-white font-montserrat font-bold px-8 py-4 rounded-xl text-lg transition-all hover:scale-105 shadow-lg"
-              >
-                🏠 Частным лицам
-              </button>
+              >🏠 Для дома</button>
             </div>
           </div>
         </div>
