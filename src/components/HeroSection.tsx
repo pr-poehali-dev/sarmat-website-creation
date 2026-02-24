@@ -47,7 +47,7 @@ export default function HeroSection({ heroIdx, setHeroIdx, scrollTo, setFormData
           <div className="max-w-3xl">
             <div className="inline-flex items-center gap-2 bg-ochre/20 border border-ochre/40 rounded-full px-4 py-1.5 mb-6">
               <span className="w-2 h-2 rounded-full bg-ochre animate-pulse" />
-              <span className="text-ochre text-sm font-medium">Камышин · Юг России · Поволжье</span>
+              <span className="text-ochre text-sm font-medium">Юг · Поволжье · Центр России </span>
             </div>
             <h1 className="font-montserrat font-black text-4xl md:text-6xl leading-tight mb-4" style={{ textShadow: "0 2px 20px rgba(0,0,0,0.5)" }}>
               Производство<br />
