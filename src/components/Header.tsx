@@ -21,7 +21,7 @@ export default function Header({ scrolled, menuOpen, setMenuOpen, scrollTo }: He
     <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? "bg-graphite/95 backdrop-blur-md shadow-lg" : "bg-transparent"}`}>
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         <button onClick={() => scrollTo("hero")} className="flex flex-col leading-none">
-          <span className="font-montserrat font-black text-2xl text-white tracking-widest">САРМАТ</span>
+          <span className="font-montserrat text-white tracking-widest font-black text-4xl">САРМАТ</span>
           <span className="text-ochre text-[10px] font-medium tracking-[0.3em] uppercase">завод металлоконструкций</span>
         </button>
 
