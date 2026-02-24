@@ -134,7 +134,7 @@ export default function ContactsSection({ formData, setFormData, submitted, hand
           <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-6 mb-8">
             <div>
               <div className="font-montserrat font-black text-2xl tracking-widest">САРМАТ</div>
-              <div className="text-ochre text-xs tracking-[0.3em] uppercase mt-1">завод металлоконструкций</div>
+              <div className="text-ochre text-xs tracking-[0.3em] uppercase mt-1">завод металлоизделий</div>
             </div>
             <div className="flex flex-wrap gap-4">
               {[
