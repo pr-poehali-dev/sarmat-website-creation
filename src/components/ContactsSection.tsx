@@ -61,9 +61,7 @@ export default function ContactsSection({ formData, setFormData, submitted, hand
                 <button
                   onClick={() => setFormData(f => ({...f, type: "business"}))}
                   className={`flex-1 py-2.5 rounded-lg font-semibold text-sm transition-all ${formData.type === "business" ? "bg-graphite text-white" : "bg-white text-graphite hover:bg-white/80"}`}
-                >
-                  🏭 Бизнес / КП
-                </button>
+                >Бизнес / КП</button>
                 <button
                   onClick={() => setFormData(f => ({...f, type: "private"}))}
                   className={`flex-1 py-2.5 rounded-lg font-semibold text-sm transition-all ${formData.type === "private" ? "bg-graphite text-white" : "bg-white text-graphite hover:bg-white/80"}`}
