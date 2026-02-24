@@ -38,9 +38,7 @@ export default function Header({ scrolled, menuOpen, setMenuOpen, scrollTo }: He
         </nav>
 
         <div className="hidden md:flex items-center gap-3">
-          <a href="tel:+78442000000" className="text-ochre font-montserrat font-semibold text-sm hover:text-white transition-colors">
-            +7 (8442) 00-00-00
-          </a>
+          <a href="tel:+78442000000" className="text-ochre font-montserrat font-semibold text-sm hover:text-white transition-colors">+7 (927) 530-01-14</a>
           <button
             onClick={() => scrollTo("contacts")}
             className="bg-terracotta hover:bg-terracotta/90 text-white text-sm font-semibold px-4 py-2 rounded-lg transition-all hover:scale-105"
