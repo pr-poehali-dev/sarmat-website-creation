@@ -208,7 +208,7 @@ export default function HeroSection({ heroIdx, setHeroIdx, scrollTo, setFormData
           </div>
           <div className="mt-12 bg-gradient-to-r from-forest to-forest/80 rounded-2xl p-8 flex flex-col md:flex-row items-center justify-between gap-6">
             <div className="text-white">
-              <h3 className="font-montserrat font-black text-2xl mb-2">Помогаем с дизайном бесплатно</h3>
+              <h3 className="font-montserrat font-black text-2xl mb-2">Помогаем с дизайном </h3>
               <p className="text-white/80">Наши мастера предложат варианты под ваш участок и бюджет</p>
             </div>
             <button
