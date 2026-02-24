@@ -106,7 +106,7 @@ export default function HeroSection({ heroIdx, setHeroIdx, scrollTo, setFormData
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <div className="text-ochre font-semibold text-sm uppercase tracking-widest mb-3">О компании</div>
-              <h2 className="font-montserrat font-black md:text-4xl text-graphite mb-6 leading-tight text-4xl">"САРМАТ" - ваш надежный партнер в конструкциях</h2>
+              <h2 className="font-montserrat font-black md:text-4xl text-graphite mb-6 leading-tight text-4xl">"САРМАТ" - ваш надежный партнер в металлических изделиях</h2>
               <p className="text-graphite/70 text-lg leading-relaxed mb-4">
                 Более 10 лет выпускаем сварные конструкции для промышленности, строительства и АПК. Базируемся в Камышине, работаем на Юге, в Поволжье и Центральной России.
               </p>
