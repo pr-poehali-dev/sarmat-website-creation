@@ -146,7 +146,7 @@ export default function HeroSection({ heroIdx, setHeroIdx, scrollTo, setFormData
         <div className="absolute inset-0 opacity-[0.03]" style={{ backgroundImage: "repeating-linear-gradient(0deg, #B68B40 0, #B68B40 1px, transparent 1px, transparent 50px), repeating-linear-gradient(90deg, #B68B40 0, #B68B40 1px, transparent 1px, transparent 50px)" }} />
         <div className="container mx-auto px-4 relative">
           <div className="flex items-center gap-3 mb-3">
-            <span className="text-4xl">🏭</span>
+            <span className="text-4xl"></span>
             <span className="text-ochre font-semibold text-sm uppercase tracking-widest">Для бизнеса</span>
           </div>
           <h2 className="font-montserrat font-black text-3xl md:text-4xl text-white mb-3 leading-tight">
