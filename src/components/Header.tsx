@@ -22,7 +22,7 @@ export default function Header({ scrolled, menuOpen, setMenuOpen, scrollTo }: He
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         <button onClick={() => scrollTo("hero")} className="flex flex-col leading-none">
           <span className="font-montserrat text-white tracking-widest font-black text-4xl">САРМАТ</span>
-          <span className="text-ochre font-medium tracking-[0.3em] uppercase text-[0.63rem]">завод металлоконструкций</span>
+          <span className="text-ochre font-medium tracking-[0.3em] uppercase text-[0.63rem]">завод металлоизделий</span>
         </button>
 
         <nav className="hidden md:flex items-center gap-6">
