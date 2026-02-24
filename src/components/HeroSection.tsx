@@ -51,7 +51,7 @@ export default function HeroSection({ heroIdx, setHeroIdx, scrollTo, setFormData
             </div>
             <h1 className="font-montserrat font-black text-4xl md:text-6xl leading-tight mb-4" style={{ textShadow: "0 2px 20px rgba(0,0,0,0.5)" }}>
               Производство<br />
-              <span className="text-ochre">металлоконструкций</span><br />
+              <span className="text-ochre text-2xl">металлоконструкций</span><br />
               полного цикла
             </h1>
             <p className="text-white/80 text-lg md:text-xl mb-8 max-w-xl">
