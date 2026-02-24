@@ -51,9 +51,7 @@ export default function PortfolioSection({ activeTab, setActiveTab, lightbox, se
             <button
               onClick={() => setActiveTab("industrial")}
               className={`font-montserrat font-semibold px-6 py-3 rounded-xl transition-all ${activeTab === "industrial" ? "bg-graphite text-white shadow-lg" : "bg-beige text-graphite hover:bg-graphite/10"}`}
-            >
-              🏭 Промышленные объекты
-            </button>
+            > Промышленные объекты</button>
             <button
               onClick={() => setActiveTab("private")}
               className={`font-montserrat font-semibold px-6 py-3 rounded-xl transition-all ${activeTab === "private" ? "bg-graphite text-white shadow-lg" : "bg-beige text-graphite hover:bg-graphite/10"}`}
